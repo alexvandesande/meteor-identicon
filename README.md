@@ -1,14 +1,14 @@
 ## meteor-identicon
 
-Client-side [identicon](http://en.wikipedia.org/wiki/Identicon) generation for [Meteor](http://meteor.com) using 
-[blockies](https://github.com/download13/blockies).
+Client-side [identicon](http://en.wikipedia.org/wiki/Identicon) generation for [Meteor](http://meteor.com) using a 3 color variation of 
+[blockies](https://github.com/alexvandesande/blockies).
 
 ## Usage
 
 Add package to your project:
 
 ```console
-meteor add mistereo:identicon
+meteor add alexvandesande:identicon
 ```
 
 Now you can use `identicon` helper in your templates:
@@ -17,7 +17,7 @@ Now you can use `identicon` helper in your templates:
 <img src="{{identicon 'seed'}}"></img>
 ```
 
-You can pass options to [blockies](https://github.com/download13/blockies) like this:
+You can pass options to [blockies](https://github.com/alexvandesande/blockies) like this:
 
 ```handlebars
 <img src="{{identicon 'seed' size=15 scale=3}}"></img>
