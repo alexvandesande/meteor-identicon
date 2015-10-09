@@ -3,7 +3,7 @@
 Package.describe({
   name: 'alexvandesande:identicon',
   summary: 'Client-side identicon generation.',
-  version: '1.0.1',
+  version: '2.0',
   git: 'https://github.com/Mistereo/meteor-identicon.git'
 });
 
